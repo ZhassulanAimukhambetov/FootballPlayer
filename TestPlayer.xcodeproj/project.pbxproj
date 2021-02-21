@@ -46,9 +46,9 @@
 
 /* Begin PBXFileReference section */
 		5B2E9CB825E2B940001B77DF /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
-		5B2E9CC125E2D6D6001B77DF /* NetworkURLEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkURLEncoder.swift; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/NetworkURLEncoder.swift"; sourceTree = "<group>"; };
-		5B2E9CC225E2D6D6001B77DF /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkError.swift; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/NetworkError.swift"; sourceTree = "<group>"; };
-		5B2E9CC325E2D6D6001B77DF /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkResponse.swift; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/NetworkResponse.swift"; sourceTree = "<group>"; };
+		5B2E9CC125E2D6D6001B77DF /* NetworkURLEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkURLEncoder.swift; sourceTree = "<group>"; };
+		5B2E9CC225E2D6D6001B77DF /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5B2E9CC325E2D6D6001B77DF /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
 		5B6F23A825E1576500EBE946 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		5B6F23AC25E1580B00EBE946 /* AppBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilder.swift; sourceTree = "<group>"; };
 		5B6F23AF25E15B3C00EBE946 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
