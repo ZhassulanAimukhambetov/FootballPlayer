@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5B2E9CB925E2B940001B77DF /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E9CB825E2B940001B77DF /* String+Ext.swift */; };
+		5B2E9CC425E2D6D6001B77DF /* NetworkURLEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E9CC125E2D6D6001B77DF /* NetworkURLEncoder.swift */; };
+		5B2E9CC525E2D6D6001B77DF /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E9CC225E2D6D6001B77DF /* NetworkError.swift */; };
+		5B2E9CC625E2D6D6001B77DF /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E9CC325E2D6D6001B77DF /* NetworkResponse.swift */; };
 		5B6F23A925E1576500EBE946 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F23A825E1576500EBE946 /* AppCoordinator.swift */; };
 		5B6F23AD25E1580B00EBE946 /* AppBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F23AC25E1580B00EBE946 /* AppBuilder.swift */; };
 		5B6F23B025E15B3C00EBE946 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F23AF25E15B3C00EBE946 /* AppModule.swift */; };
@@ -16,9 +19,6 @@
 		5B6F23C025E16D7000EBE946 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F23BF25E16D7000EBE946 /* Match.swift */; };
 		5B6F23D825E190D700EBE946 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F23D725E190D700EBE946 /* MainAssembly.swift */; };
 		5B7E6BC125E23E0C0069E543 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E6BC025E23E0C0069E543 /* NetworkRouter.swift */; };
-		5B7E6BC825E247600069E543 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E6BC725E247600069E543 /* NetworkError.swift */; };
-		5B7E6BCC25E247BE0069E543 /* NetworkURLEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E6BCB25E247BE0069E543 /* NetworkURLEncoder.swift */; };
-		5B7E6BCF25E247E10069E543 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E6BCE25E247E10069E543 /* NetworkResponse.swift */; };
 		5B7E6BD225E247FA0069E543 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E6BD125E247FA0069E543 /* NetworkService.swift */; };
 		5B7E6BD525E248420069E543 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E6BD425E248420069E543 /* NetworkRequest.swift */; };
 		5B7E6BDA25E249370069E543 /* FootballService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E6BD925E249370069E543 /* FootballService.swift */; };
@@ -46,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		5B2E9CB825E2B940001B77DF /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		5B2E9CC125E2D6D6001B77DF /* NetworkURLEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkURLEncoder.swift; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/NetworkURLEncoder.swift"; sourceTree = "<group>"; };
+		5B2E9CC225E2D6D6001B77DF /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkError.swift; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/NetworkError.swift"; sourceTree = "<group>"; };
+		5B2E9CC325E2D6D6001B77DF /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkResponse.swift; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/NetworkResponse.swift"; sourceTree = "<group>"; };
 		5B6F23A825E1576500EBE946 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		5B6F23AC25E1580B00EBE946 /* AppBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilder.swift; sourceTree = "<group>"; };
 		5B6F23AF25E15B3C00EBE946 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
@@ -54,9 +57,6 @@
 		5B6F23BF25E16D7000EBE946 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		5B6F23D725E190D700EBE946 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
 		5B7E6BC025E23E0C0069E543 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
-		5B7E6BC725E247600069E543 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkError.swift; path = ../../../../../../Documents/NetworkError.swift; sourceTree = "<group>"; };
-		5B7E6BCB25E247BE0069E543 /* NetworkURLEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkURLEncoder.swift; path = ../../../../../../Documents/NetworkURLEncoder.swift; sourceTree = "<group>"; };
-		5B7E6BCE25E247E10069E543 /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkResponse.swift; path = ../../../../../../Documents/NetworkResponse.swift; sourceTree = "<group>"; };
 		5B7E6BD125E247FA0069E543 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		5B7E6BD425E248420069E543 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		5B7E6BD925E249370069E543 /* FootballService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballService.swift; sourceTree = "<group>"; };
@@ -151,12 +151,12 @@
 		5B7E6BC525E247290069E543 /* NetworkService */ = {
 			isa = PBXGroup;
 			children = (
+				5B2E9CC225E2D6D6001B77DF /* NetworkError.swift */,
+				5B2E9CC325E2D6D6001B77DF /* NetworkResponse.swift */,
+				5B2E9CC125E2D6D6001B77DF /* NetworkURLEncoder.swift */,
 				5B7E6BC025E23E0C0069E543 /* NetworkRouter.swift */,
 				5B7E6BD425E248420069E543 /* NetworkRequest.swift */,
-				5B7E6BCB25E247BE0069E543 /* NetworkURLEncoder.swift */,
-				5B7E6BCE25E247E10069E543 /* NetworkResponse.swift */,
 				5B7E6BD125E247FA0069E543 /* NetworkService.swift */,
-				5B7E6BC725E247600069E543 /* NetworkError.swift */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -400,17 +400,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B7E6C2125E2AC900069E543 /* BackgroundImageView.swift in Sources */,
+				5B2E9CC525E2D6D6001B77DF /* NetworkError.swift in Sources */,
 				5B6F23A925E1576500EBE946 /* AppCoordinator.swift in Sources */,
 				5B7E6C0D25E292990069E543 /* UIButton+Const.swift in Sources */,
 				5B6F23D825E190D700EBE946 /* MainAssembly.swift in Sources */,
 				5B6F23AD25E1580B00EBE946 /* AppBuilder.swift in Sources */,
 				5B7E6C1B25E29E490069E543 /* MatchDataSource.swift in Sources */,
 				5B2E9CB925E2B940001B77DF /* String+Ext.swift in Sources */,
+				5B2E9CC625E2D6D6001B77DF /* NetworkResponse.swift in Sources */,
 				5B6F23C025E16D7000EBE946 /* Match.swift in Sources */,
 				5B7E6BF925E274E30069E543 /* UIViewController+Ext.swift in Sources */,
 				5BF26C3925E14A85009E0C74 /* MainViewController.swift in Sources */,
 				5B7E6C0525E283620069E543 /* VideoCell.swift in Sources */,
 				5B7E6C2525E2B00E0069E543 /* UILabel+Ext.swift in Sources */,
+				5B2E9CC425E2D6D6001B77DF /* NetworkURLEncoder.swift in Sources */,
 				5B7E6BC125E23E0C0069E543 /* NetworkRouter.swift in Sources */,
 				5B6F23BD25E16BD000EBE946 /* MainPresenter.swift in Sources */,
 				5B7E6BEA25E2649D0069E543 /* VideoPlayerAssembley.swift in Sources */,
@@ -420,10 +423,7 @@
 				5B7E6BDA25E249370069E543 /* FootballService.swift in Sources */,
 				5B7E6BD225E247FA0069E543 /* NetworkService.swift in Sources */,
 				5B7E6C0025E283080069E543 /* HeaderCell.swift in Sources */,
-				5B7E6BCC25E247BE0069E543 /* NetworkURLEncoder.swift in Sources */,
-				5B7E6BCF25E247E10069E543 /* NetworkResponse.swift in Sources */,
 				5B7E6C0925E292250069E543 /* UITableViewCell+Ext.swift in Sources */,
-				5B7E6BC825E247600069E543 /* NetworkError.swift in Sources */,
 				5B7E6BDF25E25DDB0069E543 /* Video.swift in Sources */,
 				5B7E6BF525E271FF0069E543 /* FootballEndPoint.swift in Sources */,
 				5B7E6BE325E262DF0069E543 /* VideoPlayerViewController.swift in Sources */,
