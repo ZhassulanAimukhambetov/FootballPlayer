@@ -1,7 +1,7 @@
 import UIKit
 import AVKit
 
-class VideoPlayerViewController: AVPlayerViewController {
+final class VideoPlayerViewController: AVPlayerViewController {
     var presenter: VideoPlayerPresenterOutput?
     
     override func viewDidLoad() {

@@ -1,6 +1,6 @@
 import UIKit
 
-class BackgroundImageView: UIImageView {
+final class BackgroundImageView: UIImageView {
     lazy private var shadowView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false

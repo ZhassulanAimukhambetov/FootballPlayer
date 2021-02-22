@@ -1,6 +1,6 @@
 import UIKit
 
-class MainAssembly: Assembly {
+final class MainAssembly: Assembly {
     func createAssembly(coordinator: BaseCoordinator) -> UIViewController {
         let footballUseCase: FootballUseCase = AppBuilder.footballUseCase()
         let view = MainViewController()
