@@ -9,7 +9,7 @@ protocol VideoPlayerPresenterInput: class {
     func showError(with message: String)
 }
 
-class VideoPlayerPresenter: VideoPlayerPresenterOutput {
+final class VideoPlayerPresenter: VideoPlayerPresenterOutput {
     weak var view: VideoPlayerPresenterInput?
     private var coordinator: BaseCoordinator?
     private var videoURL: String

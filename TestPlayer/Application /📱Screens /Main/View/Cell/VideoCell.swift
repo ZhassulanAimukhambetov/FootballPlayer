@@ -1,6 +1,6 @@
 import UIKit
 
-class VideoCell: UITableViewCell {
+final class VideoCell: UITableViewCell {
         
     private lazy var playButton: UIButton = {
         let button = UIButton()

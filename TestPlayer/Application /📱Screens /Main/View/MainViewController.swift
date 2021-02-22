@@ -1,6 +1,6 @@
 import UIKit
 
-class MainViewController: UITableViewController {
+final class MainViewController: UITableViewController {
     
     var presenter: MainPresenterOutput?
     private var dataSourse: [MatchDataSourse]? {

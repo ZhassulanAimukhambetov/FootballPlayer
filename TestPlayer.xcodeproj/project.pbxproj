@@ -204,7 +204,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		5B7E6BF725E274D10069E543 /* Extensions */ = {
+		5B7E6BF725E274D10069E543 /* ⚙️Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				5B7E6BF825E274E30069E543 /* UIViewController+Ext.swift */,
@@ -214,7 +214,7 @@
 				5B7E6BFC25E274F40069E543 /* DispatchQueue+Ext.swift */,
 				5B2E9CB825E2B940001B77DF /* String+Ext.swift */,
 			);
-			path = Extensions;
+			path = "⚙️Extensions";
 			sourceTree = "<group>";
 		};
 		5B7E6C0225E2834C0069E543 /* Cell */ = {
@@ -274,7 +274,6 @@
 		5BF26C4B25E1515A009E0C74 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5B7E6BF725E274D10069E543 /* Extensions */,
 				5BF26C3D25E14A86009E0C74 /* Assets.xcassets */,
 				5BF26C3F25E14A86009E0C74 /* LaunchScreen.storyboard */,
 			);
@@ -289,6 +288,7 @@
 				5B6F23AB25E157C500EBE946 /* 🏗Factory */,
 				5B6F23A725E1573D00EBE946 /* 🧭Coordinator */,
 				5BF26C5B25E152C6009E0C74 /* 🗄 Entities */,
+				5B7E6BF725E274D10069E543 /* ⚙️Extensions */,
 			);
 			path = "Application ";
 			sourceTree = "<group>";

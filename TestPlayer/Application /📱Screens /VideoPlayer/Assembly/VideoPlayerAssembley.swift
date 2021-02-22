@@ -1,6 +1,6 @@
 import UIKit
 
-class VideoPlayerAssembley: Assembly {
+final class VideoPlayerAssembley: Assembly {
 
     private let url: String
     

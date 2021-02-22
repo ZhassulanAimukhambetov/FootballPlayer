@@ -1,6 +1,6 @@
 import UIKit
 
-class HeaderCell: UITableViewCell {
+final class HeaderCell: UITableViewCell {
     
     private lazy var containerView: UIView = {
         let view = UIView()
